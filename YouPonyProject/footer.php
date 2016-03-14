@@ -10,8 +10,11 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
+        <div class ="footer">
+        <?php   
+        echo "Site crée par Thomas Gille et Nicolas Pourprix\n";
         ?>
+            <a href="https://github.com/ThomasGille/YouPony">Projet GitHub</a>
+        </div>
     </body>
 </html>
