@@ -7,13 +7,14 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="mStyle.css">
         <title></title>
     </head>
     <body>
         <div class ="footer">
-        <?php   
-        echo "Site crée par Thomas Gille et Nicolas Pourprix\n";
-        ?>
+        
+            Site crée par Thomas Gille et Nicolas Pourprix<br />
+        
             <a href="https://github.com/ThomasGille/YouPony">Projet GitHub</a>
         </div>
     </body>
