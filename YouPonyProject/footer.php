@@ -7,11 +7,15 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="mStyle.css">
         <title></title>
     </head>
     <body>
-        <?php
-        // put your code here
-        ?>
+        <div class ="footer">
+        
+            Site crée par Thomas Gille et Nicolas Pourprix<br />
+        
+            <a href="https://github.com/ThomasGille/YouPony">Projet GitHub</a>
+        </div>
     </body>
 </html>
