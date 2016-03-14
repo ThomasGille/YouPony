@@ -13,9 +13,9 @@ and open the template in the editor.
     <body>
         <div class ="footer">
         
-            Site crée par Thomas Gille et Nicolas Pourprix<br />
+            © 2016 - Thomas Gille & Nicolas Pourprix - Terms of use<br />
         
-            <a href="https://github.com/ThomasGille/YouPony">Projet GitHub</a>
+            <a href="https://github.com/ThomasGille/YouPony">GitHub Project</a>
         </div>
     </body>
 </html>

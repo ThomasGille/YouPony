@@ -11,7 +11,21 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+        require 'header.php';
+        ?>
+        
+        <div class="box">
+            <!-- mettre image + Description dans un lien--> 
+            <div class="tumbnail">
+                <img src="Images/ropes_pony.jpg" alt="Pony picture" />
+            </div>
+            <p>
+                Pony in danger
+            </p>
+        </div>
+        
+        <?php
+        require 'footer.php';
         ?>
     </body>
 </html>
