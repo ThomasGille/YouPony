@@ -11,21 +11,22 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        require 'header.php';
+             require 'header.html';
         ?>
         
         <div class="box">
-            <!-- mettre image + Description dans un lien--> 
-            <div class="tumbnail">
+            <a href="vid_1.php" >
+            <div class="tumbnail" max-height="320" max-width="200">
                 <img src="Images/ropes_pony.jpg" alt="Pony picture" />
             </div>
             <p>
-                Pony in danger
+                Top 25 Pony Videos
             </p>
+            </a>
         </div>
         
         <?php
-        require 'footer.php';
+            require 'footer.php';
         ?>
     </body>
 </html>
