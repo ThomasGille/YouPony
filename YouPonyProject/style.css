@@ -1,20 +1,76 @@
 html
 {
     background-color: #141414;
+    margin: 0;
+    padding: 0;
 }
 
-header
+body
 {
-    height: 20vh;
+    margin: 0;
+    padding: 0;
 }
 
 .header-row
 {
-    
+    background-color: #F647FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    font-family: "Product Sans", "Roboto", Helvetica, Arial, sans-serif;
 }
 
 header img
 {
     height: 10vh;
     width: auto;
+    align-self: center;
+}
+
+header div
+{
+    align-self: center;
+}
+
+.menu-row
+{
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+
+.menu-box
+{
+    background-color: #303030;
+    padding: 32px;
+    color:#F647FF;
+    width: 15vw;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main
+{
+    padding: 16px 32px;
+}
+
+.big-divider
+{
+    font-size: 2em;
+    font-weight: 300;
+    padding: 32px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #F647FF;
+    font-family: "Product Sans", "Roboto", Helvetica, Arial, sans-serif;
+    margin: 16px 0;
+}
+
+footer
+{
+    padding: 32px;
+    background-color: #303030;
+    color: white;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
 }
