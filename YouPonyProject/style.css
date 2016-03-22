@@ -54,6 +54,7 @@ header div
 main
 {
     padding: 16px 32px;
+    display: inline-block;
 }
 
 .big-divider

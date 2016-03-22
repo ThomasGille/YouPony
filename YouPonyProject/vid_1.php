@@ -15,8 +15,6 @@ and open the template in the editor.
         ?>
         
         <h1 style="color: white">Top 25 Pony Videos</h1>
-        <!--https://www.youtube.com/v/YDtFyuzhlwo&hl=fr-->
-        <!--<div class="box">-->
             <div>
                 <object type="application/x-shockwave-flash" width="1000" height="700" data="https://www.youtube.com/v/YDtFyuzhlwo&hl=fr">
                         <param name="movie" value="https://www.youtube.com/v/YDtFyuzhlwo&hl=fr" />
