@@ -12,6 +12,50 @@ and open the template in the editor.
     background-color:#808080;
     color:white;
     text-align: center;
+    font-family: "Roboto";
+
         
 }
 
+.box{
+    background-color: #F647FF;
+    color:#FFFFFF;
+    padding: 5px;
+    margin: 10px;
+    width: fit-content;
+    height: auto;
+    
+    
+}
+//classe pour les miniatures d'image
+.tumbnail{
+    height: 100%;
+    max-height: 200px;
+    max-width: 320px;
+}
+
+.box p{
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.content{
+    width: 80vw;
+        display: flex;
+        flex-wrap: wrap;
+        height: max-content;
+}
+
+.box_pub{   
+    background-color: #F647FF;
+    color:#FFFFFF;
+    padding: 5px;
+    margin: 10px;
+    width: 20vw;
+    height: 500px;
+    display: flex;
+}
+
+main{
+    display: flex;
+}
