@@ -58,3 +58,31 @@ and open the template in the editor.
     display: flex;
     width: 100%;
 }
+
+.video{
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    height: max-content;
+}
+
+.video_column{
+    width: 60vw;
+    display: flex;
+    flex-direction:column;
+}
+
+.principal{
+    display: flex;
+}
+
+.box_pub_vid{   
+    background-color: #F647FF;
+    color:#FFFFFF;
+    padding: 5px;
+    margin: 10px;
+    width: 20vw;
+    height: 500px;
+    display: flex;
+    margin-top: 75px;
+}    
