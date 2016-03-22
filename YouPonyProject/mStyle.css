@@ -36,5 +36,26 @@ and open the template in the editor.
 
 .box p{
     font-family: "Roboto";
+    text-align: center;
 }
 
+.content{
+    width: 80vw;
+        display: flex;
+        flex-wrap: wrap;
+        height: max-content;
+}
+
+.box_pub{   
+    background-color: #F647FF;
+    color:#FFFFFF;
+    padding: 5px;
+    margin: 10px;
+    width: 20vw;
+    height: 500px;
+    display: flex;
+}
+
+main{
+    display: flex;
+}
